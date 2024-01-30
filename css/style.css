@@ -1,46 +1,38 @@
-.logo {
-    background: white;
-    height: 180px;
-    background-image: url("../img/logo.png");
-    background-repeat: no-repeat;
-    background-position: center;
+.inline-block{
+    display: inline-block;
+    vertical-align: top;
 }
 
-#navBar {
-    height: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: aquamarine;
+.logo{
+    width: 23%;
+    padding: 1%;
+text-align: center;
 }
-.name{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: Arial, Helvetica, sans-serif;
+.nav{
+    width: 73%;
+    padding: 1%;
 }
-.title{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.ul{
+    width: 50%;
+    margin-left: auto;
 }
-.navigation{
-    color: black;
+.heroImg{
+    height: 600px;
+    padding: 25px;
+}
 
+.content{
+    width: 500px;
+    margin: 0 auto;
 }
-.icons {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    width: 35%;
-  }
-  #contentGrid {
-    margin: 20px 5%;
-    display: grid;
-    min-height: 500px;
-    height: 70vh;
-    grid-template-columns: 50% 50%;
-    grid-template-areas:
-    "myPhoto aboutMe";
-  }
-  
+.footer{
+    background-color: #373738;
+    padding: center;
+}
+.ul footer{
+    display: inline-block;
+    vertical-align: top; 
+}
+.li ul footer{
+    text-align: center;
+}
